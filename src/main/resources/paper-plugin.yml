@@ -1,0 +1,16 @@
+name: chunkyplayerpause
+version: '1.0'
+main: io.papermc.chunkyplayerpause.ChunkyPlayerPauseMain
+description: Chunky Player Pause
+api-version: '1.21.10'
+bootstrapper: io.papermc.chunkyplayerpause.ChunkyPlayerPauseBootstrap
+loader: io.papermc.chunkyplayerpause.ChunkyPlayerPauseLoader
+
+dependencies:
+
+Chunky:
+  load: BEFORE
+  required: true
+
+Plugin:
+  join-classpath: true # Means you have access to their classpath

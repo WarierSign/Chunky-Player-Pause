@@ -1,0 +1,13 @@
+public class TestPluginBootstrap implements PluginBootstrap {
+
+  @Override
+  public void bootstrap(BootstrapContext context) {
+
+  }
+
+  @Override
+  public JavaPlugin createPlugin(PluginProviderContext context) {
+    return new TestPlugin("My custom parameter");
+  }
+
+}
