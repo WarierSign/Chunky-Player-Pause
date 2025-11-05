@@ -1,20 +1,15 @@
-main: ${PACKAGE}.${NAME}
-name: ${NAME}
-version: "${VERSION}"
-api-version: "1.21.1"
-author: AUTHOR
-description: DESCRIPTION
+main: io.papermc.chunky_player_pause.ChunkyPlayerPause
+name: Chunky_Player_Pause
+version: "1"
+api-version: "1.21.10"
+author: WarierSign
+description: This Plugin pauses/starts the Chunky Plugin, when a/all Player joins/leaves
 commands:
-  ex:
-    description: Base command for EXAMPLE
-    usage: "For a list of commands, type /ex help"
-    aliases: example
+  cpp:
+    description: Chunky Player Pause
+    usage: "For a list of commands, type /cpp help"
+    aliases: chunkyplayerpause
 permissions:
-  example.test:
-    description: DESCRIPTION
-    default: true
-  example.*:
-    description: Grants all other permissions
+  chunky_player_pause.*:
+    description: Grants all permissions of this plugin
     default: false
-    children:
-      example.test: true
