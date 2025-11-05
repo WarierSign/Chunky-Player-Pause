@@ -12,4 +12,4 @@ commands:
 permissions:
   chunky_player_pause.*:
     description: Grants all permissions of this plugin
-    default: false
+    default: op
