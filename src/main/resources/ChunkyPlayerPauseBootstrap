@@ -7,7 +7,7 @@ public class TestPluginBootstrap implements PluginBootstrap {
 
   @Override
   public JavaPlugin createPlugin(PluginProviderContext context) {
-    return new TestPlugin("My custom parameter");
+    return new chunkyplayerpause("Hiiiii");
   }
 
 }
